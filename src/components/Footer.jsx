@@ -2,6 +2,7 @@ import Facebook from "./images/facebook.svg";
 import Instagram from "./images/instagram.svg";
 import Whatsapp from "./images/whatsapp.svg";
 import Youtube from "./images/youtube.svg";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -10,16 +11,16 @@ const Footer = () => {
                 <div className=" col-md-4 ">
                     <ul className="list-group text-center ">
                         <li className="list-group-item bg-secondary border border-0">
-                            <a href="#" className="text-decoration-none text-light fw-bold"> TIENDA ONLINE</a>
+                            <Link to={"#"} className="text-decoration-none text-light fw-bold"> TIENDA ONLINE</Link>
                         </li>
                         <li className="list-group-item bg-secondary border border-0">
-                            <a href="#" className="text-decoration-none text-light"> Venta Empresas</a>
+                            <Link to={"#"} className="text-decoration-none text-light"> Venta Empresas</Link>
                         </li>
                         <li className="list-group-item bg-secondary border border-0">
-                            <a href="#" className="text-decoration-none text-light"> Trabajo con nosotros</a>
+                            <Link to={"#"} className="text-decoration-none text-light"> Trabajo con nosotros</Link>
                         </li>
                         <li className="list-group-item bg-secondary border border-0">
-                            <a href="#" className="text-decoration-none text-light"> Ley 24.240, de Defensa del Consumidor</a>
+                            <Link to={"#"} className="text-decoration-none text-light"> Ley 24.240, de Defensa del Consumidor</Link>
                         </li>
                     </ul>
                 </div>

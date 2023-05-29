@@ -1,17 +1,29 @@
-import Sitio from "./images/sitio-construccion.jpg";
+import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import ItemList from "./ItemList";
+import productos from "../components/Json/Productos.json";
 
-const ItenListContainer = ({ greeting, saludo }) => {
+const ItenListContainer = () => {
+    const [items, setItems] = useState([]);
+    const {id} = useParams();
+
+    useEffect(() => {
+        const promesa = new Promise ((resolve) => {
+            setTimeout(() => {
+                resolve(id ? productos.filter(item => item.categoria === id) : productos)
+            }, 2000);
+        });
+
+        promesa.then(data => {
+            setItems(data);
+        })
+    }, [id]);
+
     return (
-        <div className="bg-light">
-            <h1 className="d-flex justify-content-center m-3">
-                {greeting}
-            </h1>
-            <div className="d-flex justify-content-center m-3">
-                <img  width={500} src={Sitio} alt={"Imagen de herramientas que dice sitio en construccion"} />
+        <div className="container">
+            <div className="row">
+                <ItemList prod ={items} />
             </div>
-            <h4 className="d-flex justify-content-center m-3">
-                {saludo}
-            </h4>
         </div>
 
     )
