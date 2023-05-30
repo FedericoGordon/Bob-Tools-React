@@ -9,20 +9,8 @@ const Footer = () => {
         <div className="container-fluid bg-secondary p-2">
             <div className="row">
                 <div className=" col-md-4 ">
-                    <ul className="list-group text-center ">
-                        <li className="list-group-item bg-secondary border border-0">
-                            <Link to={"#"} className="text-decoration-none text-light fw-bold"> TIENDA ONLINE</Link>
-                        </li>
-                        <li className="list-group-item bg-secondary border border-0">
-                            <Link to={"#"} className="text-decoration-none text-light"> Venta Empresas</Link>
-                        </li>
-                        <li className="list-group-item bg-secondary border border-0">
-                            <Link to={"#"} className="text-decoration-none text-light"> Trabajo con nosotros</Link>
-                        </li>
-                        <li className="list-group-item bg-secondary border border-0">
-                            <Link to={"#"} className="text-decoration-none text-light"> Ley 24.240, de Defensa del Consumidor</Link>
-                        </li>
-                    </ul>
+                    <Link to={"/"} className=" text-dark text-decoration-none fs-4 d-flex align-items-end justify-content-center"> INICIO</Link>
+                    <Link to={"/marcas"} className=" text-dark text-decoration-none fs-4 d-flex align-items-end justify-content-center"> MARCAS</Link>
                 </div>
                 <div className="col-md-5 fw-bold text-dark d-flex align-items-end justify-content-center">
                     © 2023 por Federico Gordon

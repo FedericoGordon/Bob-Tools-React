@@ -1,14 +1,14 @@
 [
-    {"id":1, "marca":"BOSCH", "descripcion":"Taladro Percutor 750w Gsb 13 Re 3800 Rpm Maletín + accesorios", "precio":"30990", "categoria":"electricas", "imagen":"https://http2.mlstatic.com/D_NQ_NP_610620-MLA54381215395_032023-O.webp", "stock":10},
-    {"id":2, "marca":"STANLEY", "descripcion":"Taladro Percutor Sdh600 Amarillo + Caja De 19 Pulgadas+ Brocas", "precio":"29990", "categoria":"electricas", "imagen": "https://http2.mlstatic.com/D_NQ_NP_759195-MLA53808576433_022023-O.webp", "stock":5},
-    {"id":3, "marca":"BLACK+DECKER", "descripcion":"Taladro percutor atornillador eléctrico de 13mm HD650K 650W + accesorios", "precio":"20370", "categoria":"electricas", "imagen":"https://http2.mlstatic.com/D_NQ_NP_625859-MLA40763758065_022020-O.webp", "stock":3},
-    {"id":4, "marca":"PHILCO", "descripcion":"Tladro percutor inalámbrico TPI118 18V + 2 baterías de 2000mAh", "precio":"34990", "categoria":"inalambricas", "imagen":"https://http2.mlstatic.com/D_NQ_NP_725131-MLA44983834916_022021-O.webp", "stock":9},
-    {"id":5, "marca":"GAMMA", "descripcion":"Atornillador inalambrico G12104 110V/220V azul", "precio":"8999", "categoria":"inalambricas", "imagen":"https://http2.mlstatic.com/D_NQ_NP_894180-MLA46709043801_072021-O.webp", "stock":3},
-    {"id":6, "marca":"TOTAL", "descripcion":"Amoladora angular inalámbrica TAGLI201158 turquesa", "precio":"26399", "categoria":"inalambricas", "imagen":"https://http2.mlstatic.com/D_NQ_NP_637110-MLA53803112168_022023-O.webp", "stock":39},
-    {"id":7, "marca":"STANLEY", "descripcion":"Serrucho De Costilla 12 Pulgadas 13pts", "precio":"6600", "categoria":"manuales", "imagen":"https://http2.mlstatic.com/D_NQ_NP_764571-MLA54556927428_032023-O.webp", "stock":12},
-    {"id":8, "marca":"DAKOTA", "descripcion":"Engrapadora Clavadora Profesional Linea Pesada", "precio":"5490", "categoria":"manuales", "imagen":"https://http2.mlstatic.com/D_NQ_NP_750571-MLA49003745311_022022-O.webp", "stock":30},
-    {"id":9, "marca":"BELARRA", "descripcion":"Hacha De Corte De Mano 600 Grs Mango Fibra", "precio":"3300", "categoria":"manuales", "imagen":"https://http2.mlstatic.com/D_NQ_NP_826663-MLA54864126616_042023-O.webp", "stock":30},
-    {"id":10, "marca":"DOGO", "descripcion":"50 Discos Corte Amoladora 115 X 1,0 Acero Inoxidable", "precio":"7990", "categoria":"accesorios", "imagen":"https://http2.mlstatic.com/D_NQ_NP_970900-MLA42375169242_062020-O.webp", "stock":30},
-    {"id":11, "marca":"BAROVO", "descripcion":"Kit 6 Mechas Brocas De Pala Paleta Madera", "precio":"1170", "categoria":"accesorios", "imagen":"https://http2.mlstatic.com/D_NQ_NP_864353-MLA51386776534_092022-O.webp", "stock":30},
-    {"id":12, "marca":"KWB", "descripcion":"Kit Mecha Broca Forstner 15,20,25,35 Mm Mecha Madera", "precio":"13090", "categoria":"accesorios", "imagen":"https://http2.mlstatic.com/D_NQ_NP_930802-MLA44165004233_112020-O.webp", "stock":30}
+    {"id":1, "marca":"BOSCH", "descripcion":"Taladro Percutor 750w Gsb 13 Re 3800 Rpm Maletín + accesorios", "precio":"30990", "categoria":"electricas", "imagen":"/images/bosch-taladro-percutor.jpg", "stock":10},
+    {"id":2, "marca":"STANLEY", "descripcion":"Taladro Percutor Sdh600 Amarillo + Caja De 19 Pulgadas+ Brocas", "precio":"29990", "categoria":"electricas", "imagen": "/images/stanley-taladro.jpg", "stock":5},
+    {"id":3, "marca":"BLACK+DECKER", "descripcion":"Taladro percutor atornillador eléctrico de 13mm HD650K 650W + accesorios", "precio":"20370", "categoria":"electricas", "imagen":"/images/black-taladro.jpg", "stock":3},
+    {"id":4, "marca":"PHILCO", "descripcion":"Tladro percutor inalámbrico TPI118 18V + 2 baterías de 2000mAh", "precio":"34990", "categoria":"inalambricas", "imagen":"/images/philco-atornillador.jpg", "stock":9},
+    {"id":5, "marca":"GAMMA", "descripcion":"Atornillador inalambrico G12104 110V/220V azul", "precio":"8999", "categoria":"inalambricas", "imagen":"/images/gamma-atornillador.jpg", "stock":3},
+    {"id":6, "marca":"TOTAL", "descripcion":"Amoladora angular inalámbrica TAGLI201158 turquesa", "precio":"26399", "categoria":"inalambricas", "imagen":"/images/total-amoladora.jpg", "stock":39},
+    {"id":7, "marca":"STANLEY", "descripcion":"Serrucho De Costilla 12 Pulgadas 13pts", "precio":"6600", "categoria":"manuales", "imagen":"/images/stanley-serrucho.jpg", "stock":12},
+    {"id":8, "marca":"DAKOTA", "descripcion":"Engrapadora Clavadora Profesional Linea Pesada", "precio":"5490", "categoria":"manuales", "imagen":"/images/dakota-engrampadora.jpg", "stock":15},
+    {"id":9, "marca":"BELARRA", "descripcion":"Hacha De Corte De Mano 600 Grs Mango Fibra", "precio":"3300", "categoria":"manuales", "imagen":"/images/belarra-martillo.jpg", "stock":30},
+    {"id":10, "marca":"DOGO", "descripcion":"50 Discos Corte Amoladora 115 X 1,0 Acero Inoxidable", "precio":"7990", "categoria":"accesorios", "imagen":"/images/dogo-discosdecorte.jpg", "stock":30},
+    {"id":11, "marca":"BAROVO", "descripcion":"Kit 6 Mechas Brocas De Pala Paleta Madera", "precio":"1170", "categoria":"accesorios", "imagen":"/images/barovo-mechaspaleta.jpg", "stock":20},
+    {"id":12, "marca":"KWB", "descripcion":"Kit Mecha Broca Forstner 15,20,25,35 Mm Mecha Madera", "precio":"13090", "categoria":"accesorios", "imagen":"/images/kwb-mechaskit.jpg", "stock":35}
 ]
