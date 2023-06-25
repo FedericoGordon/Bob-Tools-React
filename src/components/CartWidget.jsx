@@ -1,15 +1,21 @@
 import LogoCarrito from "./images/bag-dash.svg";
+import { CartContext } from "./context/CartContext";
+import { useContext } from "react";
+import { Link } from "react-router-dom";
 
 const CartWidget = () => {
-    return (<div className="d-flex justify-content-center">
-        <button type="button" className=" btn btn-warning position-relative ">
-            <img src={LogoCarrito} alt={"Logo de carrito"} width={20} />
-            <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                2
-                <span className="visually-hidden">unread messages</span>
-            </span>
-        </button>
-    </div>
+    const { cartTotal } = useContext(CartContext);
+
+    return (
+        <div className="d-flex justify-content-center">
+            {(cartTotal() > 0) ? <Link type="button" className=" btn btn-warning position-relative" to={"/cart"}>
+                    <img src={LogoCarrito} alt={"Logo de carrito"} width={20} />
+                    <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        {cartTotal()}
+                        <span className="visually-hidden">unread messages</span>
+                    </span>
+                </Link> : ""}
+        </div>
     )
 }
 
